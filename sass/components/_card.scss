@@ -72,4 +72,13 @@
     top: 12rem;
     right: 2rem;
   }
+  &__heading-span {
+    &--1 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-secondary-light, 0.85),
+        rgba($color-secondary-dark, 0.85)
+      );
+    }
+  }
 }
