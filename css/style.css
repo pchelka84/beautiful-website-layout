@@ -115,6 +115,9 @@ body {
 .u-margin-top-big {
   margin-bottom: 8rem; }
 
+.u-margin-top-huge {
+  margin-bottom: 10rem; }
+
 .composition {
   position: relative; }
   .composition__photo {
@@ -386,5 +389,5 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 2rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
