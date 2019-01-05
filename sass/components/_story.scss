@@ -4,6 +4,7 @@
   box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
   background-color: $color-white;
   padding: 6rem;
+  padding-left: 9rem;
   border-radius: 3px;
   font-size: $default-font-size;
 
@@ -16,5 +17,6 @@
     shape-outside: circle(50% at 50% 50%);
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem);
   }
 }
