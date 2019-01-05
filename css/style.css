@@ -334,6 +334,13 @@ body {
   padding: 6rem;
   border-radius: 3px;
   font-size: 1.6rem; }
+  .story__shape {
+    width: 15rem;
+    height: 15rem;
+    background-color: orangered;
+    float: left;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%); }
 
 .row {
   max-width: 114rem;
