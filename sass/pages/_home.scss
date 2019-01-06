@@ -37,7 +37,7 @@
 .section-book {
   padding: 15rem 0;
   background-image: linear-gradient(
-    to righ bottom,
+    to right bottom,
     $color-primary-light,
     $color-primary-dark
   );
@@ -46,5 +46,6 @@
   background-image: url(../img/nat-10.jpg);
   background-size: cover; // or 100%
   border-radius: $default-border-radius;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
   height: 50rem;
 }
