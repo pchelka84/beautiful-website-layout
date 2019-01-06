@@ -5,7 +5,7 @@
   background-color: rgba($color-white, 0.6);
   padding: 6rem;
   padding-left: 9rem;
-  border-radius: 3px;
+  border-radius: $default-border-radius;
   font-size: $default-font-size;
   transform: skewX(-12deg);
 
