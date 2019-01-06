@@ -380,6 +380,10 @@ body {
   width: 100%;
   opacity: 0.15;
   z-index: -1; }
+  .bd-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
 
 .row {
   max-width: 114rem;
