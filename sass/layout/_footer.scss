@@ -14,6 +14,9 @@
   }
 
   &__navigation {
+    border-top: 1px solid $color-grey-dark;
+    padding-top: 2rem;
+    display: inline-block; // to make the line goes only above the text/menu
   }
 
   &__list {

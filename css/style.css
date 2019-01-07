@@ -310,7 +310,7 @@ body {
         font-size: 1.5rem;
         padding: 1rem; }
         .card__details ul li:not(:last-child) {
-          border-bottom: 1px solid #f7f7f7; }
+          border-bottom: 1px solid #eee; }
   .card__cta {
     position: absolute;
     top: 50%;
@@ -475,6 +475,10 @@ body {
   .footer__logo {
     width: 15rem;
     height: auto; }
+  .footer__navigation {
+    border-top: 1px solid #777;
+    padding-top: 2rem;
+    display: inline-block; }
   .footer__list {
     list-style: none; }
   .footer__item {
