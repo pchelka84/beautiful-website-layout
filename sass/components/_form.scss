@@ -45,4 +45,14 @@
     visibility: hidden; // opacity & visibility because visibility can't be animated
     transform: translateY(-4rem);
   }
+
+  &__radio-group {
+    width: 49%;
+    display: inline-block;
+  }
+
+  &__radio-label {
+    font-size: $default-font-size;
+    cursor: pointer;
+  }
 }
