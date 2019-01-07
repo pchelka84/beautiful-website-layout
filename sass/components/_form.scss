@@ -42,5 +42,6 @@
   &__input:placeholder-shown + &__label {
     opacity: 0;
     visibility: hidden; // opacity & visibility because visibility can't be animated
+    transform: translateY(-4rem);
   }
 }
