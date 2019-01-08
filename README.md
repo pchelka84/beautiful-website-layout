@@ -4,6 +4,8 @@ The goal of this project is to learn and advanced CSS techniques and use Sass. A
 
 The Sass 7-1 Pattern is used for this project. You can find out more about the pattern [here](https://sass-guidelin.es/#the-7-1-pattern).
 
+A live version can be seen [here](https://pchelka84.github.io/travel-website-landing-page/).
+
 About section. Animated elements are the image composition and the heading. The heading is skewed in both X and Y directions and slightly increased when it's hover over.
 
 When an image is hovered over it comes to the top, slightly increases in size and has a styled border around it.
