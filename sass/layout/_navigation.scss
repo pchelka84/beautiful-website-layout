@@ -27,6 +27,8 @@
       $color-primary-light,
       $color-primary-dark
     );
+
+    transform: scale(80);
   }
   &__nav {
     height: 100vh;
@@ -38,6 +40,8 @@
   }
   &__list {
     @include centerHorizontalVertical;
+    list-style: none;
+    text-align: center;
   }
   &__link {
   }
