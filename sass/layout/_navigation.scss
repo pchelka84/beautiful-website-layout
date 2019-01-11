@@ -64,6 +64,10 @@
       );
       background-size: 230%;
       transition: all 0.4s;
+      span {
+        margin-right: 1.5rem;
+        display: inline-block;
+      }
     }
     &:hover,
     &:active {
