@@ -49,8 +49,10 @@
   &__link {
     &:link,
     &:visited {
+      display: inline-block;
       font-size: 3rem;
       font-weight: 300;
+      padding: 1rem 2rem;
       color: $color-white;
       text-decoration: none;
       text-transform: uppercase;
@@ -60,10 +62,14 @@
         transparent 50%,
         $color_white 50%
       );
-      background-size: 220%;
+      background-size: 230%;
+      transition: all 0.4s;
     }
     &:hover,
     &:active {
+      background-position: 100%;
+      color: $color-primary;
+      transform: translateX(1rem);
     }
   }
 }
