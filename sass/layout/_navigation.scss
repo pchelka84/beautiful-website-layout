@@ -28,7 +28,7 @@
       $color-primary-light,
       $color-primary-dark
     );
-
+    transition: transform 0.8s;
     // transform: scale(80);
   }
   &__nav {
@@ -39,11 +39,13 @@
     z-index: 1500;
     opacity: 0;
     width: 0%;
+    transition: all 0.8s;
   }
   &__list {
     @include centerHorizontalVertical;
     list-style: none;
     text-align: center;
+    width: 100%;
   }
   &__item {
     margin: 1rem;
