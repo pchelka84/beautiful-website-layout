@@ -28,7 +28,7 @@
       $color-primary-light,
       $color-primary-dark
     );
-    transition: transform 0.8s;
+    transition: transform 0.8s cubic-bezier(0.785, 0.135, 0.15, 0.86);
     // transform: scale(80);
   }
   &__nav {
@@ -39,7 +39,7 @@
     z-index: 1500;
     opacity: 0;
     width: 0%;
-    transition: all 0.8s;
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   &__list {
     @include centerHorizontalVertical;
