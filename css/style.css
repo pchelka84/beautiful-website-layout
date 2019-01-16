@@ -1,3 +1,10 @@
+/* DESCKTOP FIRST APPROACH
+0-600px:        Phone
+600-900px:      Tablet portrait
+900-1200px:     Tablet landscape
+[1200-1800px] is where our normal stylie is applied
+1800+px:        Big desktops
+*/
 /* basic reset */
 *,
 *::after,
@@ -8,6 +15,9 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }
