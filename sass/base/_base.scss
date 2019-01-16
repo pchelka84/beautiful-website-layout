@@ -10,22 +10,22 @@
 
 html {
   // this defines what 1rem is
-  font-size: 62.5%;
+  font-size: 62.5%; // 1rem = 10px, 10/16px = 62.5%  // 16px is a browser's default font size
 
-  @include respond(phone) {
-    font-size: 50%;
+  // @include respond(phone) { the 2nd one is the same, so we don't need this one
+  //   font-size: 50%;
+  // }
+
+  @include respond(tab-land) {
+    font-size: 56.25%; // 1rem = 9px, 9/16px = 56.25%
   }
 
   @include respond(tab-port) {
-    font-size: 60%;
-  }
-
-  @include respond(tab-land) {
-    font-size: 70%;
+    font-size: 50%; // 1rem = 8px, 8/16px = 50%
   }
 
   @include respond(big-desktop) {
-    font-size: 80%;
+    font-size: 75%; // 1rem = 12px, 12/16px = 75%
   }
 }
 
