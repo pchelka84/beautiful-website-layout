@@ -5,6 +5,13 @@
 [1200-1800px] is where our normal stylie is applied
 1800+px:        Big desktops
 */
+/*
+$breakpoint argument choices
+ -phone
+ -tab-port
+ -tab-land
+ -big-descktop
+*/
 /* basic reset */
 *,
 *::after,
@@ -15,6 +22,9 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
   @media (max-width: 600px) {
     html {
       font-size: 50%; } }
