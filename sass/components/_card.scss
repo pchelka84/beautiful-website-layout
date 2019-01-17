@@ -173,6 +173,9 @@
     } // .card:hover . card__side--front
     &:hover &__side--front {
       transform: rotateY(0);
+    }
+    .card__details {
+      padding: 1 3rem;
     } // back side styling
     &__cta {
       position: relative;
@@ -186,7 +189,7 @@
       margin-bottom: 3rem;
     }
     &__price-value {
-      font-size: 6rem;
+      font-size: 4rem;
     }
   }
 }
