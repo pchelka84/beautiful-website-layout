@@ -68,6 +68,15 @@
           $color-secondary-dark
         ),
         url(../img/nat-5.jpg);
+      @media (min-resolution: 192dpi) and (min-width: 37.5em),
+        (min-width: 125em) {
+        background-image: linear-gradient(
+            to right bottom,
+            $color-secondary-light,
+            $color-secondary-dark
+          ),
+          url(../img/nat-5-large.jpg);
+      }
     }
     &--2 {
       background-image: linear-gradient(
@@ -76,6 +85,15 @@
           $color-primary-dark
         ),
         url(../img/nat-6.jpg);
+      @media (min-resolution: 192dpi) and (min-width: 37.5em),
+        (min-width: 125em) {
+        background-image: linear-gradient(
+            to right bottom,
+            $color-primary-light,
+            $color-primary-dark
+          ),
+          url(../img/nat-6-large.jpg);
+      }
     }
     &--3 {
       background-image: linear-gradient(
@@ -84,6 +102,15 @@
           $color-tertiary-dark
         ),
         url(../img/nat-7.jpg);
+    }
+    @media (min-resolution: 192dpi) and (min-width: 37.5em),
+      (min-width: 125em) {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        ),
+        url(../img/nat-7-large.jpg);
     }
   }
   &__heading {
@@ -170,13 +197,15 @@
         transform: rotateY(0deg);
         clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
       }
-    } // .card:hover . card__side--front
+    }
+    // .card:hover . card__side--front
     &:hover &__side--front {
       transform: rotateY(0);
     }
     .card__details {
       padding: 1 3rem;
-    } // back side styling
+    }
+    // back side styling
     &__cta {
       position: relative;
       top: 0;
