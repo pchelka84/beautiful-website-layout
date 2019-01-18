@@ -38,8 +38,7 @@
     @include respond(tab-port) {
       width: 100%;
       display: block;
-      // margin-bottom: 2rem;
-      height: 27rem;
+      padding-bottom: 2rem;
     }
   }
 
@@ -52,7 +51,7 @@
     @include respond(tab-port) {
       width: 100%;
       display: block;
-      padding: 6rem 5rem;
+      padding: 4rem 5rem;
     }
   }
 
@@ -64,7 +63,7 @@
       width: 50%;
       float: left;
       height: 100%;
-      // margin-bottom: 4rem;
+      margin-bottom: 4rem;
     }
   }
 
