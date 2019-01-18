@@ -102,15 +102,15 @@
           $color-tertiary-dark
         ),
         url(../img/nat-7.jpg);
-    }
-    @media (min-resolution: 192dpi) and (min-width: 37.5em),
-      (min-width: 125em) {
-      background-image: linear-gradient(
-          to right bottom,
-          $color-tertiary-light,
-          $color-tertiary-dark
-        ),
-        url(../img/nat-7-large.jpg);
+      @media (min-resolution: 192dpi) and (min-width: 37.5em),
+        (min-width: 125em) {
+        background-image: linear-gradient(
+            to right bottom,
+            $color-tertiary-light,
+            $color-tertiary-dark
+          ),
+          url(../img/nat-6-large.jpg);
+      }
     }
   }
   &__heading {
