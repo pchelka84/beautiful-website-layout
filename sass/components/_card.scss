@@ -60,8 +60,10 @@
     background-size: cover;
     height: 23rem;
     background-blend-mode: screen;
-    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+      -webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+      clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+    }
     &--1 {
       background-image: linear-gradient(
           to right bottom,
@@ -199,7 +201,10 @@
       box-shadow: none;
       &--back {
         transform: rotateY(0deg);
-        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+        @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+          -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+        }
       }
     }
     // .card:hover . card__side--front
