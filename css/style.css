@@ -813,10 +813,15 @@ body {
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .header {
       background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg); } }
+  @media only screen and (max-width: 56.25em) {
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+      .header {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 95%);
+        clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 95%); } } }
   @media only screen and (max-width: 37.5em) {
     @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
       .header {
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 95%);
         clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 95%); } } }
   .header__logo-box {
     position: absolute;
@@ -964,7 +969,8 @@ body {
   margin-top: -20vh; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
-      padding: 20rem 0; } }
+      padding: 20rem 0;
+      margin-top: -17vh; } }
 
 .section-features {
   padding: 20rem 0;
